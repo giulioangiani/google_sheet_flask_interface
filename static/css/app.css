@@ -1,0 +1,97 @@
+main.container {
+	position: absolute;
+	top: 70px;
+	left: 45px;
+}
+
+body, div {
+	font-family: Helvetica;
+}
+
+a.menu {
+	color: white;
+	padding:4px;
+}
+
+input {
+	padding:5px;
+	width: 100px;
+	text-align:center;
+	color: black;
+	font-size:14px;
+}
+
+input.checkbox {
+	padding:5px;
+	width: 30px;
+	text-align:center;
+	color: black;
+	font-size:14px;
+}
+
+
+div.header {
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #35009E;
+	vertical-align: middle;
+	padding: 10 10 0 10;
+	color: #DDDDDD;
+}
+
+div.login {
+	margin:auto;
+	width: 450px;
+	border: 1px solid #777777;
+	padding:20px;
+}
+
+img.small {
+	width:50px
+}
+
+img.logo {
+	width:150px
+}
+
+div.pagetitle {
+	color: #333;
+	font-size: 2em;
+}
+
+img.icon25 {
+	width:25px
+}
+
+.table th, .table td {
+    padding: 0.1rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.1rem;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.blocked_footer {
+	position:fixed;
+	bottom:0px;
+	right:20px;
+}
+
+#_filter_field {
+    width: 200px;
+    border: 1px solid #999;
+    color: #666;
+    border-radius: 5px;
+	text-align: left;
+}
